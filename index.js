@@ -5027,7 +5027,7 @@ let QUOTELIST=[
         
       }
       function quoteGenerator(){
-
+       
        let quoteListSize=QUOTELIST.length;
        let randomIndex=Math.floor(Math.random()*quoteListSize);
        let randomQouteData=QUOTELIST[randomIndex];
@@ -5042,6 +5042,8 @@ let QUOTELIST=[
        twitterLink+=" - "+ authorInApiformat;
 
        document.getElementById("tweet-quote").href=twitterLink;
+       
+
       }
      
       
